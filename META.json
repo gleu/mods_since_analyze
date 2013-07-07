@@ -1,0 +1,34 @@
+{
+	"name": "mods_since_analyze",
+	"abstract": "Estimation of number of changed tuples",
+	"description": "Expose the estimation of number of changed tuples since last analyze.",
+	"version": "1.0.0",
+	"maintainer": "Guillaume Lelarge <guillaume@lelarge.info>",
+	"license": {
+		"PostgreSQL": "http://www.postgresql.org/about/licence"
+	},
+	"release_status": "stable",
+	"provides": {
+		"mods_since_analyze": {
+			"file": "mods_since_analyze.so",
+			"version": "1.0.0"
+		}
+	},
+	"meta-spec": {
+		"version": "1.0.0",
+		"url": "http://pgxn.org/meta/spec.txt"
+	},
+	"tags": [
+		"function",
+	],
+    "resources": {
+        "bugtracker": {
+            "web": "https://github.com/gleu/mods_since_analyze/issues"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git://github.com/gleu/mods_since_analyze.git",
+            "web": "https://gleu@github.com/gleu/mods_since_analyze.git"
+        }
+    }
+}

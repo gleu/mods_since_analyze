@@ -1,0 +1,17 @@
+mods_since_analyze Install
+==========================
+
+To install mods_since_analyze, you should untar the log_functions tarball
+anywhere you want.
+
+You'll need to compile it. Do the usual "make && make install".
+
+Then you need to install it on the PostgreSQL database. Depending on your
+PostgreSQL release, you can do it in two ways:
+
+  * CREATE EXTENSION mods_since_analyze;
+  * psql -i mods_since_analyze.sql db
+
+It will install a function called pg_stat_get_mod_since_analyze(), which takes
+one parameter, the OID of the table for which you want the statistic since
+last ANALYZE.
