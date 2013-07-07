@@ -19,7 +19,9 @@
 		"url": "http://pgxn.org/meta/spec.txt"
 	},
 	"tags": [
-		"function",
+		"analyze",
+		"estimation",
+		"changed tuples"
 	],
     "resources": {
         "bugtracker": {
