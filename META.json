@@ -19,6 +19,7 @@
 		"url": "http://pgxn.org/meta/spec.txt"
 	},
 	"tags": [
+		"backport",
 		"analyze",
 		"estimation",
 		"changed tuples"
