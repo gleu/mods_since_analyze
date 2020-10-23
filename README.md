@@ -1,6 +1,10 @@
 mods_since_analyze
 ==================
 
+This extension was interesting years ago when 9.0 to 9.3 releases were still
+maintained. So, this won't be updated since the feature it delivers it now on
+every maintained PostgreSQL releases.
+
 mods_since_analyze is a PostgreSQL extension that exposes the estimation of
 number of changed tuples on a table since last analyze through the function
 pg_stat_get_mod_since_analyze(oid).
