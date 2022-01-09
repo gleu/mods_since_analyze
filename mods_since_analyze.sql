@@ -3,7 +3,7 @@
 --
 --    Install mods_since_analyze extension module.
 --
--- Copyright (c) 2013-2021, Guillaume Lelarge (Dalibo),
+-- Copyright (c) 2013-2022, Guillaume Lelarge (Dalibo),
 -- guillaume.lelarge@dalibo.com
 --
 --
