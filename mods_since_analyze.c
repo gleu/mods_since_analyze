@@ -4,7 +4,7 @@
  *  Expose the estimation of number of changed tuples since last analyze.
  *
  *
- *  Copyright (c) 2013-2024, Guillaume Lelarge (Dalibo),
+ *  Copyright (c) 2013-2025, Guillaume Lelarge (Dalibo),
  *  guillaume.lelarge@dalibo.com
  *
  *-------------------------------------------------------------------------
